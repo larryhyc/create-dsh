@@ -1,0 +1,29 @@
+{
+  "name": "@larryhyc-org/create-dsh",
+  "version": "0.1.3",
+  "description": "一键创建 DeepSeek Harness 插件项目（TypeScript / JavaScript）",
+  "type": "module",
+  "bin": {
+    "create-dsh": "bin/create-dsh.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/create-dsh.js"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "scaffold",
+    "create"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
